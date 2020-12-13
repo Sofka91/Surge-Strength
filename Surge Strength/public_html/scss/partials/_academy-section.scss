@@ -1,0 +1,82 @@
+
+.academy-section{
+    background-image: url("../img/academy-section/Mask Group4.png");
+}
+
+@media(min-width:992px){
+    .academy-section{
+        padding-left: 200px;
+        padding-top: 30px;
+    }
+}
+
+.academy-section{
+    .h4{
+        color: #007DC5;
+        font-size: 25px;
+        line-height: 64px;
+    } & .h3{
+        font-size: 30px;
+        line-height: 40px;
+
+    }
+}
+
+.academy-section{
+    p{
+        line-height: 45px;
+        margin-left: 10px;
+    } & a{
+        background-color: #FF6600;
+        padding: 5px 25px;
+        display: block;
+        margin: auto;
+        margin-bottom: 40px;
+        text-decoration: none;
+    }
+}
+
+
+@media(min-width:992px){
+    .academy-section{
+        a{
+            margin: 0;
+        } 
+    }
+}
+
+
+@media(min-width:576px){
+    .academy-section{
+        img{
+            padding-top: 150px;
+        }
+    }
+}
+
+.academy-section{
+    .vector{
+        display: none;
+    }
+}
+
+@media(min-width:992px){
+    .academy-section{
+        .vector{
+            top: 39px;
+            left: 150px;
+            visibility: visible;
+        }
+    }
+}
+
+@media(min-width:992px){
+    .academy-section{
+        p{
+            padding-left: 80px;
+            margin-top: 70px;
+        } & .enroll-button{
+            margin-left: 110px;
+        }
+    }
+}

@@ -1,0 +1,160 @@
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-section{
+    .enroll-text{
+        .hidden{
+            display: none;
+        } 
+    }
+}
+
+
+
+
+
+@media(min-width:992px){
+    .header{
+        padding: 250px;
+    } & h1{
+        font-size: 80px;
+        line-height: 100px;
+    } 
+}
+
+.header-section{
+    .enroll-text{
+        p{
+            display: block;
+        }
+    }
+}
+
+@media(min-width:992px){
+    .header-section{
+        .enroll-text{
+            p{
+                display: inline;
+            }
+        }
+    } 
+}
+
+@media(min-width:992px){
+    .enroll-text{
+        padding-left: 100px;
+    }  
+}
+
+.header-section{
+    .btn-orange{
+        color: #fff;
+        background: #f60;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        border-radius: 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        width: 225px;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 1s;
+
+        span {
+            transition: 1s;
+        }
+
+        &:hover {
+            transform: skew(-30deg);
+            color: #fff;
+        }
+
+        &:hover > span {
+            transform: skew(30deg);
+            transition: 1s;
+        }
+    }
+}
+
+.header-section{
+    a{
+        background-color: #FF6600;
+        padding: 10px 30px;
+        text-decoration: none;
+    } & input{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+}
+
+
+.header-section{
+    .icon{
+        background-color: #007DC5;
+        padding: 5px;
+    }
+}
+
+.enroll-item{
+    visibility: hidden;
+    background-image: url("../img/header-section/Vector-picture.png");
+}
+
+.enroll-item h6{
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media(min-width:576px){
+    .enroll-item{
+        visibility: visible;
+    }
+}
+
+@media(min-width:320px){
+    .header-section{
+        .enroll-text{
+            .hidden{
+                display: block;
+            } 
+        }
+    }
+}
+
+
+@media(min-width:576px){
+    .header-section{
+        .enroll-text{
+            .hidden{
+                display: none;
+            } 
+        }
+    }
+
+}
+
+
+@media(min-width:576px){
+    .header-section{
+        padding: 50px;
+    } & .enroll-item{
+        padding-top: 30px;
+        padding-left: 60px;
+    } 
+}
+
+@media(min-width:992px){
+    .enroll-item{
+        padding-top: 30px;
+        padding-left: 200px;
+    } &.enroll-item h6{
+        font-size: 40px;
+    }
+}

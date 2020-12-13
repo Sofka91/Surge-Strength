@@ -1,0 +1,130 @@
+
+
+.enroll-section{
+    .enroll-item1{
+        background-image: url("../img/enroll-section/Vector5.png");
+        background-repeat: no-repeat;
+    }
+}
+
+
+.enroll-section{
+    padding: 30px;
+}
+
+@media(min-width:768px){
+    .enroll-section{
+        padding: 50px;
+    }
+}
+
+
+@media(min-width:992px){
+    .enroll-section{
+        .enroll-type{
+            padding-left: 100px;
+        }
+    }
+}
+
+
+.enroll-section{
+    .enroll-item1{
+        h3{
+            font-family: $gotham;
+            font-weight: 500;
+            line-height: 100px;
+            color: #002447;
+        } & svg{
+            visibility: hidden;
+        }
+    }
+}
+
+.enroll-section{
+    .enroll-item1{
+        svg icon{
+            background-color: #007DC5;
+        }
+    }
+}
+
+.enroll-section{
+    .enroll-item1{
+        a{
+            background-color: #FF6600;
+            padding: 5px 35px;
+            display: block;
+            margin: auto;
+            text-decoration: none;
+        } & input{
+            padding: 5px 30px 5px 5px;
+        }
+    }
+}
+
+@media(min-width:992px){
+    .enroll-section{
+        .enroll-item1{
+            a{
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media(min-width:768px){
+    .enroll-section{
+        .enroll-item1{
+            svg{
+                visibility: visible;
+            }
+        }
+    }
+}
+
+
+.enroll-section{
+    .d-flex{
+        .vector1{
+            visibility: hidden;
+        }
+    }
+}
+
+.enroll-section{
+    .enroll-title{
+        font-weight: 400;
+    }
+}
+
+.enroll-section{
+    .enroll-title::after{
+        content: '';
+        display:block;
+        border:1px solid;
+        width: 72px;
+        color: #002447;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media(min-width:992px){
+    .enroll-title::after{
+        visibility: hidden;
+    }
+}
+
+
+@media(min-width:576px){
+    .enroll-section{
+        .d-flex{
+            .vector1{
+                visibility: visible;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
